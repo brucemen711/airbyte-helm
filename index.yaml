@@ -3,7 +3,7 @@ entries:
   airbyte:
   - apiVersion: v2
     appVersion: 0.35.3-alpha
-    created: "2022-01-13T15:29:41.993247+07:00"
+    created: "2022-01-13T15:41:42.34585+07:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -23,6 +23,6 @@ entries:
     name: airbyte
     type: application
     urls:
-    - https://brucemen711.github.io/airflow-helm/airbyte-0.3.0.tgz
+    - https://brucemen711.github.io/airbyte-helm/airbyte-0.3.0.tgz
     version: 0.3.0
-generated: "2022-01-13T15:29:41.985987+07:00"
+generated: "2022-01-13T15:41:42.337265+07:00"
