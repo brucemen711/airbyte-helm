@@ -952,12 +952,9 @@ jobs:
   ## @param jobs.resources.requests [object] The requested resources for jobs
   resources:
     ## Example:
-    ## requests:
-    ##    memory: 256Mi
-    ##    cpu: 250m
-    requests: {}
-    ## Example:
-    ## limits:
-    ##    cpu: 200m
-    ##    memory: 1Gi
-    limits: {}
+    requests:
+      memory: 256Mi
+      cpu: 200m
+    limits:
+      cpu: 250m
+      memory: 512Mi
