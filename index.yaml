@@ -3,7 +3,7 @@ entries:
   airbyte:
   - apiVersion: v2
     appVersion: 0.38.4-alpha
-    created: "2022-05-18T13:47:20.735659+07:00"
+    created: "2022-06-10T17:05:18.474489+07:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -19,34 +19,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 7.x.x
     description: Helm chart to deploy airbyte
-    digest: 561ae995c86787d7798b77dc993c9761b5ba7372e164593b73c31483f60ea25a
+    digest: 383929be725c1e083fb4e18ad8a5ff172c2ee49268f3b5ab622d621e2b5b9a16
     name: airbyte
     type: application
     urls:
     - https://brucemen711.github.io/airbyte-helm/airbyte-0.3.2.tgz
     version: 0.3.2
-  - apiVersion: v2
-    appVersion: 0.36.0-alpha
-    created: "2022-05-18T13:47:20.7281+07:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.x.x
-    - condition: minio.enabled
-      name: minio
-      repository: https://charts.bitnami.com/bitnami
-      version: 7.x.x
-    description: Helm chart to deploy airbyte
-    digest: e17f2b42ff4ae03ade6c0ac7e4e09c754a53bc49b1ec09d58c23797111aa6f44
-    name: airbyte
-    type: application
-    urls:
-    - https://brucemen711.github.io/airbyte-helm/airbyte-0.3.1.tgz
-    version: 0.3.1
-generated: "2022-05-18T13:47:20.718466+07:00"
+generated: "2022-06-10T17:05:18.467169+07:00"
